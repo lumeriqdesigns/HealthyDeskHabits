@@ -1,7 +1,0 @@
-import {notFound} from 'next/navigation';
-import type {Metadata} from 'next';
-import {articles,authors} from '@/lib/content';
-import ArticleCard from '@/components/ArticleCard';
-export function generateStaticParams(){return authors.map(a=>({slug:a.slug}))}
-export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const a=authors.find(x=>x.slug===slug);return a?{title:a.name,description:a.bio,alternates:{canonical:`/author/${a.slug}`}}:{}}
-export default async function AuthorPage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const author=authors.find(x=>x.slug===slug);if(!author)return notFound();const written=articles.filter(a=>a.author===slug);return <main className="container py-16 md:py-24"><section className="max-w-3xl"><p className="eyebrow">HealthyDeskHabits contributor</p><div className="mt-5 flex items-center gap-5"><div className="flex h-16 w-16 items-center justify-center rounded-full bg-[var(--sage-soft)] text-lg font-bold">{author.initials}</div><div><h1 className="serif text-5xl tracking-[-.045em]">{author.name}</h1><p className="mt-2 text-[var(--muted)]">{author.role}</p></div></div><p className="mt-7 text-lg leading-8 text-[#505753]">{author.bio}</p></section><section className="mt-16"><p className="eyebrow">Published work</p><div className="mt-6 grid gap-6 md:grid-cols-3">{written.map(a=><ArticleCard key={a.slug} article={a}/>)}</div></section></main>}
