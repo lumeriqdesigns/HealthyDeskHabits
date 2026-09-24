@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <rect width="1200" height="750" fill="#F3EBE8"/>
+  <circle cx="900" cy="160" r="120" fill="#E8D5C8" opacity="0.8"/>
+  <circle cx="200" cy="500" r="180" fill="#E5D0C4" opacity="0.5"/>
+  <!-- calm shapes / abstract balance -->
+  <ellipse cx="600" cy="380" rx="220" ry="140" fill="#D4B8A8" opacity="0.4"/>
+  <circle cx="520" cy="340" r="70" fill="#C9A090" opacity="0.55"/>
+  <circle cx="680" cy="360" r="55" fill="#B89080" opacity="0.45"/>
+  <!-- soft path / horizon -->
+  <path d="M0 520 Q300 460 600 500 T1200 480 L1200 750 L0 750 Z" fill="#E0CFC4"/>
+  <!-- simple plant silhouette -->
+  <path d="M180 520 Q190 400 200 360 Q210 400 220 520" fill="#8B9A7A"/>
+  <circle cx="200" cy="340" r="40" fill="#9AAB88"/>
+  <circle cx="170" cy="360" r="28" fill="#8B9A7A"/>
+  <circle cx="230" cy="355" r="30" fill="#A3B490"/>
+  <text x="60" y="700" font-family="Georgia,serif" font-size="28" fill="#5C4A42" opacity="0.7">Mental Wellness</text>
+</svg>

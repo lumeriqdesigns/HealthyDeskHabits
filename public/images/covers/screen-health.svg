@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <rect width="1200" height="750" fill="#E8EEF6"/>
+  <rect x="0" y="0" width="1200" height="750" fill="url(#g)" opacity="0.5"/>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EEF6"/>
+    </radialGradient>
+  </defs>
+  <!-- large screen glow -->
+  <rect x="250" y="120" width="700" height="420" rx="16" fill="#1A2332"/>
+  <rect x="280" y="150" width="640" height="360" rx="6" fill="#7BA3C9"/>
+  <!-- soft UI lines on screen -->
+  <rect x="320" y="200" width="280" height="12" rx="2" fill="#E8EEF6" opacity="0.6"/>
+  <rect x="320" y="230" width="400" height="8" rx="2" fill="#E8EEF6" opacity="0.35"/>
+  <rect x="320" y="250" width="360" height="8" rx="2" fill="#E8EEF6" opacity="0.35"/>
+  <rect x="320" y="280" width="200" height="80" rx="6" fill="#5A8AB0" opacity="0.5"/>
+  <rect x="540" y="280" width="200" height="80" rx="6" fill="#5A8AB0" opacity="0.35"/>
+  <!-- glasses resting -->
+  <ellipse cx="480" cy="580" rx="50" ry="28" fill="none" stroke="#2C3A4A" stroke-width="6"/>
+  <ellipse cx="600" cy="580" rx="50" ry="28" fill="none" stroke="#2C3A4A" stroke-width="6"/>
+  <path d="M530 580 H550" stroke="#2C3A4A" stroke-width="5"/>
+  <path d="M430 575 Q400 560 390 540" stroke="#2C3A4A" stroke-width="5" fill="none"/>
+  <path d="M650 575 Q680 560 690 540" stroke="#2C3A4A" stroke-width="5" fill="none"/>
+  <text x="60" y="700" font-family="Georgia,serif" font-size="28" fill="#3A4A5C" opacity="0.7">Screen Health</text>
+</svg>

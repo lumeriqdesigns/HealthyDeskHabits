@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <rect width="1200" height="750" fill="#E9F2F0"/>
+  <!-- device frames -->
+  <rect x="180" y="160" width="280" height="400" rx="28" fill="#2C3338"/>
+  <rect x="198" y="190" width="244" height="340" rx="8" fill="#7EB8A8"/>
+  <circle cx="320" cy="550" r="14" fill="#5A6560"/>
+  <!-- watch / wearable -->
+  <rect x="620" y="280" width="160" height="200" rx="36" fill="#2C3338"/>
+  <rect x="638" y="310" width="124" height="140" rx="12" fill="#5BA88F"/>
+  <rect x="660" y="250" width="80" height="30" rx="6" fill="#4A5550"/>
+  <rect x="660" y="480" width="80" height="30" rx="6" fill="#4A5550"/>
+  <!-- soft data dots -->
+  <circle cx="900" cy="200" r="12" fill="#5BA88F" opacity="0.6"/>
+  <circle cx="950" cy="280" r="8" fill="#5BA88F" opacity="0.4"/>
+  <circle cx="880" cy="320" r="16" fill="#5BA88F" opacity="0.3"/>
+  <circle cx="1000" cy="360" r="10" fill="#5BA88F" opacity="0.5"/>
+  <path d="M900 200 L950 280 L880 320 L1000 360" stroke="#5BA88F" stroke-width="2" opacity="0.4"/>
+  <text x="60" y="700" font-family="Georgia,serif" font-size="28" fill="#3D524C" opacity="0.7">Health Tech</text>
+</svg>
