@@ -1,6 +1,0 @@
-@import "tailwindcss";
-:root{--ink:#111315;--paper:#f7f7f3;--sage:#8faf9a;--sage-soft:#dde7df;--muted:#737875;--line:#dfe2dc;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{text-decoration:none;color:inherit}button,input{font:inherit}.serif{font-family:Georgia,"Times New Roman",serif}.container{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:700;color:var(--muted)}.card{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.58)}
-.article-copy{max-width:760px}.article-copy p{font-size:18px;line-height:1.78;color:#3f4542;margin:0 0 1.35rem}.article-copy h2{font-family:Georgia,"Times New Roman",serif;font-size:36px;line-height:1.13;letter-spacing:-.035em;margin:3.1rem 0 1rem;scroll-margin-top:90px}.article-copy h3{font-size:23px;margin:2rem 0 .75rem}.article-copy ul{padding-left:1.3rem;color:#3f4542;line-height:1.8}.article-copy li{margin:.4rem 0}.article-copy section:first-child h2{margin-top:0}
-::selection{background:var(--sage-soft)}
-@media(max-width:700px){.container{width:min(100% - 28px,1180px)}.article-copy p{font-size:17px}.article-copy h2{font-size:30px}.article-copy{max-width:none}}
