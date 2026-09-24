@@ -1,2 +1,0 @@
-import type {Article} from '@/lib/content'; import ArticleCard from './ArticleCard';
-export default function RelatedArticles({articles}:{articles:Article[]}){return <section className="mt-20"><div className="flex items-end justify-between gap-6"><div><p className="eyebrow">Keep reading</p><h2 className="serif mt-2 text-4xl tracking-[-.04em]">More for your workday</h2></div></div><div className="mt-8 grid gap-6 md:grid-cols-3">{articles.slice(0,3).map(a=><ArticleCard key={a.slug} article={a}/>)}</div></section>}
